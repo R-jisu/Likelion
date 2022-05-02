@@ -1,0 +1,43 @@
+body {
+    margin: 20px;
+}
+
+.ball {
+    width: 60px;
+    height: 60px;
+    line-height: 60px; /*수직정렬*/
+    border: 1px none solid;
+    border-radius: 30px;
+    font: bold;
+    font-size: 25px;
+    color:white;
+    text-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+    vertical-align: middle; 
+    text-align: center;
+    float: left;
+    margin-right: 6px;
+}
+
+.ball1 {
+    background: aqua;
+}
+
+.ball2 {
+    background:aquamarine;
+}
+
+.ball3 {
+    background: rgb(90, 58, 133);
+}
+
+.ball4 {
+    background: #88ff12
+}
+
+.ball5 {
+    background:bisque;
+}
+
+.ball6 {
+    background:blueviolet;
+}
