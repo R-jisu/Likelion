@@ -5,4 +5,5 @@
 
 # javascript
 로또 추첨기 만들기
+
 ![image](https://user-images.githubusercontent.com/79021544/166222132-25dfc828-46e9-437e-aebe-2cc4e810fdab.png)
