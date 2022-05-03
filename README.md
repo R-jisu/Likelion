@@ -7,3 +7,7 @@
 로또 추첨기 만들기
 
 ![image](https://user-images.githubusercontent.com/79021544/166222132-25dfc828-46e9-437e-aebe-2cc4e810fdab.png)
+
+자소서 글자수 세기 +) 공백 제거
+![image](https://user-images.githubusercontent.com/79021544/166428493-073f05e1-b715-459f-9e79-4717dd72ebc8.png)
+
