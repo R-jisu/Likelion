@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>자소서 글자수 세기</title>
+        <link rel="stylesheet" href="jasoseol.css">
+    </head>
+    <body>
+        <h2>자기소개서</h2>
+        <div>
+        <textarea id="jasoseol" cols="30" rows="5" onkeyup="counter();"></textarea>
+        </div>
+        <span id="count">공백포함 (0/200)</span>
+        <span id="count_noblank">공백제거 (0/200)</span>
+        <script>
+            function counter() {
+                var content = document.getElementById('jasoseol').value
+                var noblank = content.replace(/(\s*)/ig,"")
+                if(content.length > 200) {
+                    content = content.substring(0,200)
+                    document.getElementById('jasoseol').value = content
+                }
+                document.getElementById('count').innerHTML ='공백포함 (' + content.length + '/200)'
+                document.getElementById('count_noblank').innerHTML ='공백제거 (' + noblank.length + '/200)'
+            }
+        </script>
+    </body>
+</html>
