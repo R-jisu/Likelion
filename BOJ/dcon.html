@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<script>
+
+const firstN = 26;
+let num = firstN;
+let cnt = 0;
+
+while(1) {
+    let ten = ~~(num/10); //2
+    let second = num%10; //6
+    console.log(ten)
+    console.log(second)
+
+    num = (second*10)+ (ten + second)%10; //68
+    console.log(num)
+    cnt++;
+    if(num == firstN) break;
+}
+
+console.log(cnt);
+
+</script>
+</html>
